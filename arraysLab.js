@@ -103,7 +103,7 @@ console.log(newArray);
 // Fill the "numbers" array with numbers 0-31 using a for loop. Log the result.
 let numbers = [];
 for (let i = 0; i < 32; i++) {
-    numbers.push(i)
+    numbers.push(i);
 }
 console.log(numbers);
 
@@ -175,7 +175,7 @@ console.log(groceryList)
 let sum = 0;
 const repeats = [1, 1, 2, 5, 2, 6, 6];
 
-for(i = 0; i < repeats.length; i++) {
+for(let i = 0; i < repeats.length; i++) {
     if (repeats[i] === repeats[i-1]) {
         sum += repeats[i];
     }   
